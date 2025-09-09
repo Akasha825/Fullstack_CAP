@@ -92,16 +92,12 @@ curl --request PUT --url http://SAMPLE_CAP_HOST/odata/v4/rag/ScienceDataUpload/c
   --data-binary '@../../sample_files/science-data-sample.csv'
 ```
 
-#### Sample UI - Upload CSV
-<img src="readme-image-1.png" alt="image1" width="500"/>
-<img src="readme-image-2.png" alt="image1" width="250"/>
 
 ### View Science Data
 ```bash
 curl --request GET --url http://SAMPLE_CAP_HOST/odata/v4/rag/ScienceData
 ```
-#### Sample UI - View Science Data
-<img src="readme-image-3.png" alt="image1" width="500"/>
+
 
 ## Contributing
 
